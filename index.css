@@ -1,0 +1,219 @@
+
+.main {
+  background-color: radial-gradient(rgb(34, 142, 255), rgb(0, 0, 0)); border: 2px solid #fff;
+}
+
+.n-logo {
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: -1%;
+  animation-duration: 0.5s;
+}
+
+.h1-seo {
+  font-size: 6em;
+}
+
+.main-text {
+   color: white; 
+   text-shadow: 2px 2px 2px black;
+}
+
+.modal-text {
+  font-family: Audiowide; color: white; text-shadow: 2px 2px 2px black;
+  
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.9);
+	font-family: 'Audiowide', cursive;
+	border-bottom: 2px solid #fff;
+	box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+}
+
+.section-bg {
+  background: radial-gradient(rgb(34, 142, 255), rgb(0, 0, 0)); border: 2px solid #fff;
+  background-size: cover;
+}
+
+.navbar-toggler {
+	-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon 1.5s ease-in-out infinite alternate;
+	animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+a:hover {
+  -webkit-animation: neontext 1.5s ease-in-out infinite alternate;
+  -moz-animation: neontext 1.5s ease-in-out infinite alternate;
+  animation: neontext 1.5s ease-in-out infinite alternate;
+}
+
+.nav-link:hover {
+  -webkit-animation: neontext 1.5s ease-in-out infinite alternate;
+  -moz-animation: neontext 1.5s ease-in-out infinite alternate;
+  animation: neontext 1.5s ease-in-out infinite alternate;
+}
+
+.header-btn {
+  background-color: transparent;
+  width: 300px;
+  margin: 10px;
+  font-size: 1.5em;
+  font-family: 'Audiowide', cursive;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  -webkit-animation: neonbox 1.5s ease-in-out infinite alternate;
+  -moz-animation: neonbox 1.5s ease-in-out infinite alternate;
+  animation: neonbox 1.5s ease-in-out infinite alternate;
+}
+
+.modal-content {
+  color: white;
+  width: 600px;
+}
+
+#text-left {
+  text-align: left;
+} 
+
+#text-right {
+  text-align: right;
+}
+
+.neon-box {
+	box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+}
+
+.neon-text {
+	font-family: 'Audiowide', cursive;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+}
+
+.neon-box-animate {
+	-webkit-animation: neonbox 1.5s ease-in-out infinite alternate;
+ 	-moz-animation: neonbox 1.5s ease-in-out infinite alternate;
+  animation: neonbox 1.5s ease-in-out infinite alternate; 
+}
+
+.neon-text-amimate {
+	-webkit-animation: neontext 1.5s ease-in-out infinite alternate;
+  -moz-animation: neontext 1.5s ease-in-out infinite alternate;
+  animation: neontext 1.5s ease-in-out infinite alternate;
+}
+
+.sidebar-collapse .navbar-collapse:before {
+    opacity: 0.00;
+    filter: alpha(opacity=00);
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#responsive-position {
+    margin-top: 125px;
+  }
+
+@keyframes neontext {
+  from {
+  	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+}
+
+@keyframes neonbox {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+
+    #responsive-position {
+      margin-top: 250px;
+    }
+
+    #land-section {
+      display: flex;
+      flex-direction:column-reverse;
+    }
+
+     #text-right {
+     text-align: left;
+    }
+
+    .modal-content {
+      color: white;
+      max-width: 350px;
+    }
+
+    .modal-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+   
+    .close-btn {
+      visibility: hidden;
+    }
+
+  }
+
+@media only screen and (min-width: 600px) { 
+    #land-section {
+      display: flex;
+      flex-direction:column-reverse;
+    }
+  }
+
+@media only screen and (min-width: 768px) { 
+    body {
+      text-align: center;      
+    }
+
+    #land-section {
+      display: flex;
+      flex-direction:row;
+    }
+    
+    .h1-seo {
+      font-size: 6em;
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+    #responsive-position {
+
+    }
+
+    .h1-seo {
+      font-size: 6em;
+    }
+
+    .sidebar-collapse .navbar-collapse:before {
+      opacity: 0.00;
+      filter: alpha(opacity=00);
+      display: block;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
